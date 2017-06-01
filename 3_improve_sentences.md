@@ -6,7 +6,7 @@
 ```  
 // 人クラス
 class Parsion
-  //　年齢
+  // 年齢
   attr_accessor :age
 end
 ```
@@ -15,7 +15,7 @@ end
 ```  
 // 人クラス
 class Parsion
-  //　年齢
+  // 年齢
   attr_accessor :age
 
   // 年齢を初期化する
@@ -27,7 +27,8 @@ end
 // 山田くんのインスタンスを作成する
 yamada = Parsion.new(20)
 ```
-この最後の行が実行されたときに、山田くんオブジェクトが作成されて、「initialize」が呼ばれるまではOKですね。
+この最後の行が実行されたときに、山田くんオブジェクトが作成されて、  
+「initialize」が呼ばれるまではOKですね。
 その「initialize」内で「self」が使用されています。
 
 ここでのselfの「インスタンスオブジェクト自身」とは、
